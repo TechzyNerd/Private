@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NazCorn — Eat Healthy, Live Better</title>
+
+  <!-- Fonts & Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ================= NAVIGATION ================= -->
+  <nav>
+    <div class="brand">
+      <div class="logo">NC</div>
+      <div>
+        <div class="brand-name">NazCorn</div>
+        <div class="brand-tag">Eat Healthy, Live Better</div>
+      </div>
+    </div>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#guide">Nutrition</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section id="home" class="hero">
+    <div class="hero-card fade-in">
+      <span class="kicker">NEW</span>
+      <h1>Small choices make a big difference.</h1>
+      <p class="lead">
+        NazCorn makes healthy eating simple. No strict diets — just real food that keeps you full of energy for school, work, or the gym.
+        Scroll down to learn the basics of good nutrition and check out our favourite healthy picks.
+      </p>
+
+      <div class="cta-row">
+        <button class="btn" data-scroll="#shop">Shop Now</button>
+        <button class="btn secondary" data-scroll="#guide">Learn More</button>
+      </div>
+
+      <p class="tip">
+        💡 Quick tip: build every meal with <b>carbs + protein + veg</b> for balance.<br>
+        Example: brown rice + grilled chicken + roasted vegetables.
+      </p>
+    </div>
+
+    <div class="hero-media fade-in">
+      <img src="image.png" alt="Healthy meal spread">
+    </div>
+  </section>
+
+  <!-- ================= NUTRITION GUIDE ================= -->
+  <section id="guide" class="fade-in">
+    <h2>Nutrition Basics</h2>
+    <p class="muted" style="margin-bottom:22px;">Here’s a quick look at what your body really needs every day.</p>
+
+    <div class="grid">
+      <!-- Carbohydrates -->
+      <div class="nut-card fade-in">
+        <img src="Carbs.jpg" alt="Carbs">
+        <div>
+          <h3>Carbohydrates</h3>
+          <p class="muted"><strong>What they do:</strong> Give your body and brain energy to move and think.</p>
+          <p class="muted"><strong>Good sources:</strong> Oats, whole-grain rice, potatoes, fruit.</p>
+        </div>
+      </div>
+
+      <!-- Protein -->
+      <div class="nut-card fade-in">
+        <img src="Protein.jpg" alt="Protein">
+        <div>
+          <h3>Protein</h3>
+          <p class="muted"><strong>What it does:</strong> Builds and repairs muscles, skin, and cells.</p>
+          <p class="muted"><strong>Good sources:</strong> Chicken, fish, beans, tofu, eggs.</p>
+        </div>
+      </div>
+
+      <!-- Fats -->
+      <div class="nut-card fade-in">
+        <img src="fats.jpg" alt="Fats">
+        <div>
+          <h3>Fats</h3>
+          <p class="muted"><strong>What they do:</strong> Store energy and help your body absorb vitamins.</p>
+          <p class="muted"><strong>Good sources:</strong> Avocado, olive oil, nuts, seeds.</p>
+        </div>
+      </div>
+
+      <!-- Vitamins -->
+      <div class="nut-card fade-in">
+        <img src="Vitamins & Minerals.jpg" alt="Vitamins">
+        <div>
+          <h3>Vitamins & Minerals</h3>
+          <p class="muted"><strong>What they do:</strong> Support immunity, growth, and recovery.</p>
+          <p class="muted"><strong>Good sources:</strong> Colourful fruits, vegetables, dairy, fish.</p>
+        </div>
+      </div>
+
+      <!-- Water -->
+      <div class="nut-card fade-in">
+        <img src="Water.jpg" alt="Water">
+        <div>
+          <h3>Water</h3>
+          <p class="muted"><strong>What it does:</strong> Keeps you hydrated, cool, and focused.</p>
+          <p class="muted"><strong>Tip:</strong> Carry a bottle and sip through the day — it adds up fast.</p>
+        </div>
+      </div>
+
+      <!-- Fibre -->
+      <div class="nut-card fade-in">
+        <img src="Fibre.jpg" alt="Fibre">
+        <div>
+          <h3>Fibre</h3>
+          <p class="muted"><strong>What it does:</strong> Helps digestion and keeps you feeling full longer.</p>
+          <p class="muted"><strong>Good sources:</strong> Whole grains, beans, fruit, and vegetables.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA at bottom of guide -->
+    <div class="cta-center fade-in">
+      <h3>🌿 Start small, stay consistent</h3>
+      <p class="muted">Swap one processed snack for something natural today. You’ll feel the difference in a week!</p>
+      <button class="btn" data-scroll="#shop">Check Our Picks</button>
+    </div>
+  </section>
+
+  <!-- ================= SHOP SECTION ================= -->
+  <section id="shop" class="shop fade-in">
+    <h2>Shop Healthy Favourites</h2>
+    <p class="muted">Our best-loved items for clean eating and real energy.</p>
+
+    <div class="products">
+      <div class="product fade-in">
+        <img src="grains.png" alt="Granola">
+        <h4>Wholegrain Granola</h4>
+        <p class="muted">Oats, seeds, and fruit — a crunchy, high-fibre breakfast mix.</p>
+        <div class="price-row">
+          <span class="price">£3.99</span>
+          <button class="btn add-cart" data-name="Wholegrain Granola" data-price="3.99">Add to basket</button>
+        </div>
+      </div>
+
+      <div class="product fade-in">
+        <img src="berryblast.png" alt="Smoothie">
+        <h4>Berry Blast Smoothie</h4>
+        <p class="muted">Greek yogurt and mixed berries — a quick Vitamin C boost.</p>
+        <div class="price-row">
+          <span class="price">£2.49</span>
+          <button class="btn add-cart" data-name="Berry Blast Smoothie" data-price="2.49">Add to basket</button>
+        </div>
+      </div>
+
+      <div class="product fade-in">
+        <img src="chickpea_avacodo_sald.png" alt="Salad">
+        <h4>Super Green Salad</h4>
+        <p class="muted">Spinach, avocado, and chickpeas — packed with protein and fibre.</p>
+        <div class="price-row">
+          <span class="price">£4.99</span>
+          <button class="btn add-cart" data-name="Super Green Salad" data-price="4.99">Add to basket</button>
+        </div>
+      </div>
+
+      <div class="product fade-in">
+        <img src="fresh_fruit_box.png" alt="Fruit Box">
+        <h4>Fresh Fruit Box</h4>
+        <p class="muted">A mix of seasonal fruit — natural sweetness, no junk.</p>
+        <div class="price-row">
+          <span class="price">£1.99</span>
+          <button class="btn add-cart" data-name="Fresh Fruit Box" data-price="1.99">Add to basket</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="muted" style="margin-top:16px;font-size:13px;">Images are placeholders — feel free to use your own.</p>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact" class="fade-in">
+    <h2>Contact Us</h2>
+    <p class="muted">Questions, feedback, or collabs? Drop us a message below.</p>
+    <form action="#" class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message..." rows="4" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <p>© 2025 NazCorn — Eat Smart. Live Better.</p>
+    <small>Images from Unsplash, used under the Unsplash license.</small>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
